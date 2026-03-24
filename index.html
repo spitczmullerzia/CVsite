@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" data-i18n-attr="content" data-i18n="meta_description" content="CV website for Zia Spitczmüller — International Business student at Corvinus University of Budapest." />
+
+    <title data-i18n="page_title">Zia Spitczmüller — CV</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip_to_content">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <div class="brand">
+          <a class="brand-link" href="#top" aria-label="Back to top" data-i18n-attr="aria-label" data-i18n="back_to_top_label">
+            <span class="brand-mark" aria-hidden="true">ZS</span>
+            <span class="brand-text">Zia Spitczmüller</span>
+          </a>
+        </div>
+
+        <nav class="site-nav" aria-label="Primary">
+          <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-toggle-icon" aria-hidden="true"></span>
+            <span class="theme-toggle-text" data-i18n="theme">Theme</span>
+          </button>
+          <button class="lang-toggle" type="button" id="lang-toggle" aria-label="Switch language">
+            <span class="lang-toggle-text" id="lang-toggle-text">EN</span>
+          </button>
+          <button class="nav-toggle" type="button" aria-controls="nav-list" aria-expanded="false">
+            <span class="nav-toggle-text" data-i18n="menu">Menu</span>
+          </button>
+          <ul class="nav-list" id="nav-list">
+            <li><a class="nav-link" href="#hero" data-i18n="nav_home">Home</a></li>
+            <li><a class="nav-link" href="#about" data-i18n="nav_about">About</a></li>
+            <li><a class="nav-link" href="#experience" data-i18n="nav_experience">Experience</a></li>
+            <li><a class="nav-link" href="#education" data-i18n="nav_education">Education</a></li>
+            <li><a class="nav-link" href="#skills" data-i18n="nav_skills">Skills</a></li>
+            <li><a class="nav-link" href="#contact" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section hero" id="hero" aria-label="Hero" data-i18n-attr="aria-label" data-i18n="hero_aria">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="kicker" data-i18n="hero_kicker">Student</p>
+            <h1 class="hero-title">Zia Spitczmüller</h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">
+              BSc International Business student at Corvinus University of Budapest.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#contact" data-i18n="cta_contact">Contact</a>
+              <a class="btn btn-ghost" href="#education" data-i18n="cta_view_education">View Education</a>
+            </div>
+
+            <dl class="meta meta-inline" aria-label="Quick facts" data-i18n-attr="aria-label" data-i18n="quick_facts_label">
+              <div class="meta-item">
+                <dt data-i18n="meta_languages">Languages</dt>
+                <dd data-i18n="meta_languages_value">Hungarian (Native), English (C1), French (B1)</dd>
+              </div>
+              <div class="meta-item">
+                <dt data-i18n="meta_location">Location</dt>
+                <dd>Budapest, HU</dd>
+              </div>
+            </dl>
+          </div>
+
+          <aside class="hero-card" aria-label="Profile" data-i18n-attr="aria-label" data-i18n="profile_label">
+            <div class="avatar" role="img" aria-label="Profile avatar" data-i18n-attr="aria-label" data-i18n="profile_avatar_label">
+              <img class="avatar-img" src="./assets/portrait.png" alt="" width="640" height="360" loading="lazy" decoding="async" />
+              <span class="avatar-fallback" aria-hidden="true">ZS</span>
+            </div>
+            <div class="hero-card-body">
+              <p class="hero-card-title" data-i18n="open_to_opportunities">Open to opportunities</p>
+              <p class="hero-card-text" data-i18n="open_to_opportunities_text">
+                Interested in internships and entry-level roles where I can contribute with strong communication,
+                creative problem-solving, and teamwork.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="about-title" data-i18n="about_title">About</h2>
+            <p class="section-lead" data-i18n="about_lead">A quick introduction.</p>
+          </header>
+
+          <div class="card">
+            <p data-i18n="about_paragraph">
+              I have finished my high school studies and successfully met all the requirements of the matura exam. The
+              next milestone for me is completing a university degree. I have a high level of English proficiency and a
+              solid basic knowledge of French. With strong communication skills and a creative problem-solving mindset,
+              I approach new challenges with confidence. I also have musical experience and hold a category B driver’s
+              license.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="experience-title" data-i18n="experience_title">Experience</h2>
+            <p class="section-lead" data-i18n="experience_lead">Student-focused overview.</p>
+          </header>
+
+          <div class="card">
+            <p data-i18n="experience_paragraph">
+              I’m currently building my professional experience and I’m excited to contribute in a real-world setting.
+              I’m looking for internships and entry-level opportunities in business, operations, marketing, or related
+              areas.
+            </p>
+            <ul class="bullets">
+              <li data-i18n="experience_bullet_1">Strong written and verbal communication</li>
+              <li data-i18n="experience_bullet_2">Creative, solutions-oriented problem-solving</li>
+              <li data-i18n="experience_bullet_3">Confident adapting to new environments</li>
+              <li data-i18n="experience_bullet_4">Collaborative teamwork and relationship-building</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="education-title" data-i18n="education_title">Education</h2>
+            <p class="section-lead" data-i18n="education_lead">Timeline.</p>
+          </header>
+
+          <ol class="timeline" aria-label="Education timeline" data-i18n-attr="aria-label" data-i18n="education_timeline_label">
+            <li class="timeline-item">
+              <div class="timeline-when">2012–2020</div>
+              <div class="timeline-what">
+                <h3 class="timeline-title">Lajos Árpád Primary School</h3>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-when">2020–2025</div>
+              <div class="timeline-what">
+                <h3 class="timeline-title">Szalézi Szent Ferenc High School</h3>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-when">2025–present</div>
+              <div class="timeline-what">
+                <h3 class="timeline-title">Corvinus University of Budapest</h3>
+                <p class="timeline-subtitle" data-i18n="education_corvinus_program">BSc International Business</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="skills-title" data-i18n="skills_title">Skills</h2>
+            <p class="section-lead" data-i18n="skills_lead">What I bring.</p>
+          </header>
+
+          <div class="grid-2">
+            <article class="card">
+              <h3 class="card-title" data-i18n="core_skills_title">Core Skills</h3>
+              <ul class="definition-list">
+                <li>
+                  <strong data-i18n="skill_communication_title">Communication</strong>
+                  <span data-i18n="skill_communication_text">Excellent verbal and written communication skills</span>
+                </li>
+                <li>
+                  <strong data-i18n="skill_problem_title">Problem-Solving</strong>
+                  <span data-i18n="skill_problem_text">Provide creative and innovative solutions to emerging challenges</span>
+                </li>
+                <li>
+                  <strong data-i18n="skill_technical_title">Technical Skills</strong>
+                  <span data-i18n="skill_technical_text">Advanced proficiency in Microsoft programs (Excel, PowerPoint, Word, Access)</span>
+                </li>
+                <li>
+                  <strong data-i18n="skill_adapt_title">Adaptability</strong>
+                  <span data-i18n="skill_adapt_text">Quickly adjust to new environments and face challenges without hesitation</span>
+                </li>
+                <li>
+                  <strong data-i18n="skill_team_title">Teamwork</strong>
+                  <span data-i18n="skill_team_text">Collaborate easily with others and maintain excellent relationships with team members</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title" data-i18n="language_skills_title">Language Skills</h3>
+              <ul class="chips" aria-label="Language skills list" data-i18n-attr="aria-label" data-i18n="language_skills_list_label">
+                <li class="chip"><span class="chip-label" data-i18n="lang_hu">Hungarian</span> <span class="chip-value" data-i18n="level_native">Native</span></li>
+                <li class="chip"><span class="chip-label" data-i18n="lang_en">English</span> <span class="chip-value" data-i18n="level_c1_cert">C1 Certificate</span></li>
+                <li class="chip"><span class="chip-label" data-i18n="lang_fr">French</span> <span class="chip-value" data-i18n="level_b1_cert">B1 Certificate</span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="contact-title" data-i18n="contact_title">Contact</h2>
+            <p class="section-lead" data-i18n="contact_lead">Let’s connect.</p>
+          </header>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3 class="card-title" data-i18n="contact_details_title">Details</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="contact-label" data-i18n="contact_phone">Phone</span>
+                  <a class="contact-link" href="tel:+36205813677">+36 20 581 3677</a>
+                </li>
+                <li>
+                  <span class="contact-label" data-i18n="contact_email">Email</span>
+                  <a class="contact-link" href="mailto:spitzcmullerzia@gmail.com">spitzcmullerzia@gmail.com</a>
+                </li>
+                <li>
+                  <span class="contact-label">LinkedIn</span>
+                  <a class="contact-link" href="#" rel="noreferrer" data-i18n="contact_linkedin_placeholder">Add your LinkedIn URL</a>
+                </li>
+              </ul>
+              <p class="muted" data-i18n="contact_muted_emailjs">
+                Prefer email? The form can send via EmailJS once you add your public key and template IDs in
+                <code>script.js</code>.
+              </p>
+            </div>
+
+            <form class="card contact-form" id="contact-form" aria-label="Contact form" data-i18n-attr="aria-label" data-i18n="contact_form_label">
+              <h3 class="card-title" data-i18n="contact_form_title">Send a message</h3>
+
+              <div class="field">
+                <label for="name" data-i18n="form_name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+              </div>
+
+              <div class="field">
+                <label for="email" data-i18n="form_email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+
+              <div class="field">
+                <label for="message" data-i18n="form_message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <div class="form-row">
+                <button class="btn btn-primary" type="submit" data-i18n="form_send">Send</button>
+                <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year"></span> Zia Spitczmüller</small>
+        <a class="footer-link" href="#top" data-i18n="back_to_top">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
